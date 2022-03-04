@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .Toastify_toast-body,
+  .Toastify_close-button--default {
+    @apply text-[#000] opacity-100;
+  }
+}
